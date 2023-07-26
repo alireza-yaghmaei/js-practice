@@ -1,35 +1,24 @@
 const num1 = +prompt("enter first number")
 const op = prompt("enter an operation from '+ - * /'")
 const num2 = +prompt("enter second number")
-let res
-let do_operation = true
 
-if(isNaN(num1) || isNaN(num2)){
-    do_operation = false
-    console.log("first or third input is not a number!")
+function calculate(a=0 , b=0 , op){
+    if (!(isNaN(num1) || isNaN(num2))){
+        switch (op) {
+            case '+':
+                return (a+b);
+            case '-':
+                return (a-b);
+            case '*':
+                return (a*b);
+            case '/':
+                return (a/b);
+            default:
+                return("Invalid OP");
+        }
+    }
+    return("Invalid Inputs");
 }
 
-if((op === "+") && do_operation){
-    res=num1+num2
-    console.log(num1,op,num2,"=",res)
-    alert(res)
-}
-if((op === "-") && do_operation){
-    res=num1-num2
-    console.log(num1,op,num2,"=",res)
-    alert(res)
-}
-if((op === "*") && do_operation){
-    res=num1*num2
-    console.log(num1,op,num2,"=",res)
-    alert(res)
-}
-if((op === "/") && do_operation){
-    res=num1/num2
-    console.log(num1,op,num2,"=",res)
-    alert(res)
-}
-if(op !== "/" && op !== "*" && op !== "-" && op !== "+"){
-    console.log("operation is not defined")
-}
+console.log(calculate(num1,num2,op));
 
