@@ -5,7 +5,7 @@ function convertToFahrenheit(c=0){
     if(!isNaN(f)){
         return(f);
     }
-    return("Invalid inputs");
+    return("something went wrong");
 }
 
 console.log(convertToFahrenheit(cels));
