@@ -1,4 +1,4 @@
-# Product Object
+# Person Object Array
 # Authors : Alireza Yaghmaei
 # Date : 8/9/2023
 
