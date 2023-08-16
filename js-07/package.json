@@ -1,0 +1,32 @@
+{
+  "name": "js-07",
+  "version": "1.0.0",
+  "description": "creating a list of person objects using typescript and static-type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alireza-yaghmaei/js-practice.git"
+  },
+  "keywords": [
+    "npm",
+    "typescript",
+    "object",
+    "person",
+    "list"
+  ],
+  "author": "Alireza Yaghmaei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alireza-yaghmaei/js-practice/issues"
+  },
+  "homepage": "https://github.com/alireza-yaghmaei/js-practice#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.197"
+  }
+}
