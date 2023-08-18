@@ -70,6 +70,7 @@ deletePerson(222);
 console.log(arr);
 console.log("");
 
+addPerson(222,"Ali","Goodarz",27,"engineer","married","male",170,75,"09121112224");
 console.log(sortPerson());
 
 
